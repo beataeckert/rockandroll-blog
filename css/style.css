@@ -169,6 +169,19 @@ footer{
 
 }
 
+@media (min-width: 465px) and (max-width:768px){
+    .blog-card-podstrona{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .blog-card-p{
+        font-size: 1.4rem;
+        line-height: 1.3em;
+    }
+
+}
+
 @media (max-width: 465px){
     
     h2 span{
@@ -203,13 +216,11 @@ footer{
     }
     
     .blog-card-podstrona{
-        display: grid;
-        grid-template-columns: minmax(200px, 1fr);
-        grid-gap: 1em;  
+        display: flex;
     }
-
+    
     .blog-card-p{
-        font-size: 1.3rem;
+        font-size: 1.4rem;
         line-height: 1.3em;
     }
 }
