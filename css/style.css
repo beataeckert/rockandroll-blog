@@ -144,7 +144,6 @@ footer{
         padding-right: 1em;
         margin: 0px;
     }
-
     
 }
 
@@ -204,16 +203,13 @@ footer{
     }
     
     .blog-card-podstrona{
-        box-shadow: 0 0 1em rgba(0,255,255,.15);
-        padding: 1em;
-        background: #02504a;
         display: grid;
         grid-template-columns: minmax(200px, 1fr);
         grid-gap: 1em;  
     }
 
     .blog-card-p{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         line-height: 1.3em;
     }
 }
