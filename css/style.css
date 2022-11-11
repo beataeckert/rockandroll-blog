@@ -217,6 +217,7 @@ footer{
     
     .blog-card-podstrona{
         display: flex;
+        flex-direction: column;
     }
     
     .blog-card-p{
